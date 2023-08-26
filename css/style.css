@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap");
+
+body {
+  background: #f0f8f8;
+}
+
+.container {
+  width: 1170px;
+
+  margin: 0 auto;
+}
+
+.nav-area {
+  margin-top: 42px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 21px 20px;
+}
+
+.logo {
+  color: #000;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.font-sm {
+  color: #000;
+  font-family: Outfit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.home {
+  color: #55bdb3;
+  font-family: Outfit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav-btn-area {
+  margin-left: 30px;
+}
+
+.order-btn {
+  width: 118px;
+  height: 42px;
+
+  padding: 12px 24px 13px 23px;
+  color: #fff;
+  font-family: Outfit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 8px;
+  border: none;
+  background: #55bdb3;
+}
+
+.login-btn {
+  width: 118px;
+  height: 42px;
+  border-radius: 16px;
+  border-radius: 8px;
+  border: 2px solid #55bdb3;
+  background: #fff;
+  box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  color: #55bdb3;
+  font-family: Outfit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.banner-description {
+  padding-top: 92px;
+}
+
+.banner-description h1 {
+  color: #0f2435;
+  font-family: Outfit;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.we-provide {
+  color: #55bdb3 !important;
+}
+
+.banner-description h2 {
+  color: #000;
+  font-family: Outfit;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 23px;
+}
+
+.banner-description p {
+  color: #000;
+  font-family: Outfit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 85px;
+}
+
+.description-btn-area {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.proposal-btn {
+  border-radius: 8px;
+  background: #0f2435;
+  color: #fff;
+  font-family: Outfit;
+
+  padding: 13px 29px 12px 28px;
+}
+
+.chat-btn {
+  background: #f0f8f8;
+  border-radius: 8px;
+  border: 1px solid #0f2435;
+  color: #0f2435;
+  font-family: Outfit;
+
+  padding: 13px 32px 12px 23px;
+}
+
+.banner-area {
+  /* width: 789.444px;
+  height: 496px; */
+  flex-shrink: 0;
+  position: relative;
+}
+
+.banner-bg-img img {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  right: 0;
+}
+
+.guarantee-list {
+  /* width: 453.987px;
+  height: 173px; */
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 0.05);
+  flex-shrink: 0;
+  position: absolute;
+  top: 283px;
+  left: -105px;
+  padding: 20.94px 11px 20.94px 18.73px;
+}
+
+.guarantee-type {
+  border-radius: 6px;
+  background: #f0f8f8;
+  color: #000;
+  font-family: Outfit;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 8.82px 25.34px 9.92px 37.46px;
+  margin-bottom: 11.02px;
+  margin-right: 12.73px;
+  display: flex;
+  align-items: center;
+}
